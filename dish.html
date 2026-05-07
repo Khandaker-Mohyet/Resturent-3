@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resturent | Dish</title>
+  <link rel="stylesheet" href="/Css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><img src="/Image/logo-3.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav" href="/menu.html">Menu</a>
+          </li>
+          <li class="nav-item nav">
+            <a class="nav-link" href="/reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item nav">
+            <a class="nav-link nav" href="">Contact</a>
+          </li>
+          <li class="nav-item nav">
+            <a class="nav-link" href="">About</a>
+          </li>
+          <li class="nav-item nav">
+            <a class="nav-link" href="/signup.html">Signup</a>
+          </li>
+          <li class="nav-item nav">
+            <a class="nav-link" href="/login.html">Login</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="container mt-4" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+
+
+
+
+
+  <!-- main section -->
+  <section class="container my-4">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4 zoom-container-main">
+          <img src="/Image/food2.jpg" class="zoom-container img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+            <h5>Price: </h5>
+            <h6>Ingredients: </h6>
+            <!-- quantaty section -->
+            <!-- Quantity -->
+            <div class="d-flex align-items-center mb-3">
+              <button class="btn btn-outline-dark" onclick="decrease()">-</button>
+              <input type="text" id="qty" value="1" class="form-control text-center mx-2" style="width:60px;">
+              <button class="btn btn-outline-dark" onclick="increase()">+</button>
+            </div>
+            <button class="btn btn-primary">Order Now</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Description section -->
+  <section class="container">
+    <h3>Dish Details</h3>
+    <p>
+      This delicious cheese pizza is made with fresh ingredients and baked to perfection.
+      Perfect for lunch or dinner with family and friends. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+      nam doloribus dicta nesciunt deleniti ullam ipsam illum? Exercitationem ex explicabo architecto reprehenderit ut
+      possimus, placeat, tempora dolorum, fugit ad cum?
+    </p>
+
+    <h5>Nutrition Info</h5>
+    <ul>
+      <li>Calories: 250 kcal</li>
+      <li>Protein: 10g</li>
+      <li>Fat: 12g</li>
+    </ul>
+  </section>
+  <section class="container my-5">
+    <h1 class="section-title">Related Dish Section</h1>
+
+    <!-- Card -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="/Image/card-1.jpg" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h5 class="">Price: </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Image/card-2.jpg" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h5 class="">Price: </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Image/card-5.jpg" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h5 class="">Price: </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Image/card-4.jpg" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h5 class="">Price: </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Image/card-7.jpg" class="card-img-top card-img" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h5 class="">Price: </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="/Js/script.js"></script>
+</body>
+
+</html>

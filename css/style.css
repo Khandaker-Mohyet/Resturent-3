@@ -1,0 +1,30 @@
+.nav:hover{
+  background-color: gainsboro;
+  border-radius: 8px;
+}
+
+
+.banner-img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.section-title {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.zoom-container-main {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.zoom-container {
+  transition: 0.5s;
+}
+.zoom-container:hover {
+  transform: scale(1.2);
+}
+
+.card-img{
+  height: 250px;
+}
