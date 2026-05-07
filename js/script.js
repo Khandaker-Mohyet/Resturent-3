@@ -1,14 +1,8 @@
 
 setInterval(()=>{
-    document.getElementById('time').innerText = new Date().toLocaleString()
+    document.getElementById('date').innerText = new Date().toLocaleString()
 })
 
-
-// const qty = document.getElementById("qty");
-
-// const increase = () => qty.value++;
-
-// const decrease = () => qty.value > 1 && qty.value--;
 
 
   function increase() {
