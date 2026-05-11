@@ -3,7 +3,6 @@
   border-radius: 8px;
 }
 
-
 .banner-img {
   height: 70vh;
   object-fit: cover;
@@ -16,13 +15,13 @@
 
 .zoom-container-main {
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .zoom-container {
   transition: 0.5s;
 }
 .zoom-container:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .card-img{

@@ -64,7 +64,7 @@
 
   <section class="container my-5">
     <h1 class="pb-3 text-center">Signup</h1>
-    <form class="card p-3 w-75 mx-auto" onsubmit="return confirm('Successfully sign up')">
+    <form class="card p-3 w-75 mx-auto" onsubmit="return alert('Successfully sign up')">
       <div class="row mb-3">
         <div class="col">
           <input type="text" class="form-control" placeholder="Full name" aria-label="full name">
@@ -77,10 +77,10 @@
         <input type="email" class="form-control" placeholder="Your email" aria-label="Your email">
       </div>
       <div class="mb-3">
-        <input required type="number" class="form-control" placeholder="Number of gasts" aria-label="Number of gasts">
+        <input type="number" class="form-control" placeholder="Number of gasts" aria-label="Number of gasts">
       </div>
       <div class="mb-3">
-        <input required type="password" class="form-control" placeholder="Password" aria-label="Password">
+        <input type="password" class="form-control" placeholder="Password" aria-label="Password">
       </div>
       <div class="mb-3">
         <input type="date" required class="form-control" placeholder="Date" aria-label="Date">
@@ -89,7 +89,8 @@
         <input type="time" class="form-control" placeholder="Time" aria-label="time">
       </div>
       <div class="mb-3">
-        <textarea class="form-control" placeholder="Special Requuest" aria-label="With textarea"></textarea>
+        <!-- <textarea class="form-control" placeholder="Special Requuest" aria-label="With textarea"></textarea> -->
+         <textarea placeholder="Special Requuest" class="form-control" name="" id=""></textarea>
       </div>
       <button class="btn btn-info" type="submit">submit</button>
     </form>
